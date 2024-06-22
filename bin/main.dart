@@ -42,7 +42,7 @@ void main() {
   Car car1 = Car('Toyota', 'Corolla', 2020, 15000.5);
   Car car2 = Car('Honda', 'Civic', 2018, 30000.0);
   Car car3 = Car('Ford', 'Mustang', 2016, 45000.3);
-  Car car4 = Car('Toyota', 'CHR', 2022, 40000.3);
+  Car car4 = Car('Toyota', 'CHR', 2022, 4000.3);
 
   // Driving each car a different number of miles
   car1.drive(500.5);
@@ -50,11 +50,11 @@ void main() {
   car3.drive(800.7);
 
   // Printing the car details
-  print('Car 1: ${car1.getBrand()}, ${car1.getModel()}, Year: ${car1.getYear()}, Miles Driven: ${car1.getMilesDriven()}, Age: ${car1.getAge()}');
-  print('Car 2: ${car2.getBrand()}, ${car2.getModel()}, Year: ${car2.getYear()}, Miles Driven: ${car2.getMilesDriven()}, Age: ${car2.getAge()}');
-  print('Car 3: ${car3.getBrand()}, ${car3.getModel()}, Year: ${car3.getYear()}, Miles Driven: ${car3.getMilesDriven()}, Age: ${car3.getAge()}');
-  print('Car 4: ${car4.getBrand()}, ${car4.getModel()}, Year: ${car4.getYear()}, Miles Driven: ${car4.getMilesDriven()}, Age: ${car4.getAge()}');
+  print('_____Car 1_____\nBrand Name: ${car1.getBrand()}, \nModel Name: ${car1.getModel()}, \nYear: ${car1.getYear()}, \nMiles Driven: ${car1.getMilesDriven()}, \nAge: ${car1.getAge()}');
+  print('\n_____Car 2_____\nBrand Name: ${car2.getBrand()}, \nModel Name: ${car2.getModel()}, \nYear: ${car2.getYear()}, \nMiles Driven: ${car2.getMilesDriven()}, \nAge: ${car2.getAge()}');
+  print('\n_____Car 3_____\nBrand Name: ${car3.getBrand()}, \nModel Name: ${car3.getModel()}, \nYear: ${car3.getYear()}, \nMiles Driven: ${car3.getMilesDriven()}, \nAge: ${car3.getAge()}');
+  print('\n_____Car 4_____\nBrand Name: ${car4.getBrand()}, \nModel Name: ${car4.getModel()}, \nYear: ${car4.getYear()}, \nMiles Driven: ${car4.getMilesDriven()}, \nAge: ${car4.getAge()}');
 
   // Printing the total number of Car objects created
-  print('Total number of Car objects created: ${Car.numberOfCars}');
+  print('\nTotal number of Car objects created: ${Car.numberOfCars}');
 }
